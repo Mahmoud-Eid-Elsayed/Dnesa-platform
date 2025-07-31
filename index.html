@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dnesa - Transform Your Potential Into Success</title>
+  <meta name="description"
+    content="Dnesa is a comprehensive personal development platform helping individuals overcome challenges, build resilience, and achieve their goals through structured coaching and community support.">
+  <meta name="keywords" content="personal development, coaching, goal setting, resilience, success, motivation">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+
+  <!-- External Libraries -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Loading Screen -->
+  <div class="loading" id="loading">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand font-display" href="#home">
+        <i class="fas fa-rocket me-2"></i>Dnesa
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a href="#contact" class="btn-primary-custom">Get Started</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="hero-content" data-aos="fade-up">
+            <h1 class="hero-title font-display">Transform Your Potential Into <span
+                style="color: #f59e0b;">Success</span></h1>
+            <p class="hero-subtitle">Join thousands who have overcome challenges, built resilience, and achieved their
+              goals through our proven personal development methodology.</p>
+            <div class="d-flex gap-3 flex-wrap">
+              <a href="#features" class="btn-primary-custom">
+                Start Your Journey <i class="fas fa-arrow-right ms-2"></i>
+              </a>
+              <a href="#services" class="btn btn-outline-light btn-lg">
+                <i class="fas fa-play me-2"></i>Watch Demo
+              </a>
+            </div>
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <span class="hero-stat-number" data-count="15000">0</span>
+                <span class="hero-stat-label">Lives Transformed</span>
+              </div>
+              <div class="hero-stat">
+                <span class="hero-stat-number" data-count="98">0</span>
+                <span class="hero-stat-label">Success Rate %</span>
+              </div>
+              <div class="hero-stat">
+                <span class="hero-stat-number" data-count="50">0</span>
+                <span class="hero-stat-label">Countries</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="text-center">
+            <i class="fas fa-mountain" style="font-size: 15rem; opacity: 0.3; color: white;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Features Section -->
+  <section id="features" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" data-aos="fade-up">
+          <h2 class="section-title font-display">Why Choose Dnesa?</h2>
+          <p class="section-subtitle">Our comprehensive approach combines proven methodologies with modern technology to
+            accelerate your personal growth journey.</p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h4 class="feature-title">Mindset Transformation</h4>
+            <p class="feature-description">Rewire limiting beliefs and develop a growth mindset that propels you toward
+              your goals with evidence-based psychological techniques.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h4 class="feature-title">Community Support</h4>
+            <p class="feature-description">Connect with like-minded individuals in our exclusive community. Share
+              challenges, celebrate victories, and grow together.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h4 class="feature-title">Progress Tracking</h4>
+            <p class="feature-description">Monitor your development with our advanced analytics dashboard. Visualize
+              your growth and stay motivated with data-driven insights.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section-padding services-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" data-aos="fade-up">
+          <h2 class="section-title font-display">Our Services</h2>
+          <p class="section-subtitle">Comprehensive solutions tailored to your unique journey of personal and
+            professional development.</p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+          <div class="service-item">
+            <div class="service-icon">
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <h5 class="service-title">1-on-1 Coaching</h5>
+            <p>Personalized coaching sessions with certified life coaches tailored to your specific goals and
+              challenges.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+          <div class="service-item">
+            <div class="service-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h5 class="service-title">Skill Development</h5>
+            <p>Comprehensive courses covering leadership, communication, emotional intelligence, and productivity.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+          <div class="service-item">
+            <div class="service-icon">
+              <i class="fas fa-bullseye"></i>
+            </div>
+            <h5 class="service-title">Goal Setting</h5>
+            <p>Strategic goal-setting frameworks that turn your dreams into actionable, measurable objectives.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+          <div class="service-item">
+            <div class="service-icon">
+              <i class="fas fa-heartbeat"></i>
+            </div>
+            <h5 class="service-title">Wellness Programs</h5>
+            <p>Holistic wellness approach including meditation, stress management, and work-life balance strategies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" data-aos="fade-up">
+          <h2 class="section-title font-display">Success Stories</h2>
+          <p class="section-subtitle">Hear from individuals who have transformed their lives through Dnesa's proven
+            methodology.</p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-card">
+            <p class="testimonial-text">"Dnesa helped me overcome my fear of public speaking and land my dream job. The
+              community support was incredible, and the coaches truly cared about my success."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">SM</div>
+              <div class="testimonial-info">
+                <h6>Sarah Martinez</h6>
+                <small>Marketing Director</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-card">
+            <p class="testimonial-text">"After struggling with work-life balance for years, Dnesa's wellness program
+              completely transformed my approach. I'm happier and more productive than ever."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">DJ</div>
+              <div class="testimonial-info">
+                <h6>David Johnson</h6>
+                <small>Tech Entrepreneur</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="testimonial-card">
+            <p class="testimonial-text">"The goal-setting framework changed everything for me. I went from feeling lost
+              to having a clear 5-year plan and the confidence to achieve it."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">EK</div>
+              <div class="testimonial-info">
+                <h6>Emily Kim</h6>
+                <small>Creative Professional</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="section-padding services-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" data-aos="fade-up">
+          <h2 class="section-title font-display">Choose Your Plan</h2>
+          <p class="section-subtitle">Flexible pricing options designed to fit your budget and development needs.</p>
+        </div>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="pricing-card">
+            <h4 class="text-center mb-3">Starter</h4>
+            <div class="text-center">
+              <span class="pricing-price">$29</span>
+              <div class="pricing-period">/month</div>
+            </div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check me-2"></i>Access to basic courses</li>
+              <li><i class="fas fa-check me-2"></i>Community forum access</li>
+              <li><i class="fas fa-check me-2"></i>Progress tracking</li>
+              <li><i class="fas fa-check me-2"></i>Email support</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline-primary w-100">Get Started</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="pricing-card featured">
+            <h4 class="text-center mb-3">Professional</h4>
+            <div class="text-center">
+              <span class="pricing-price">$79</span>
+              <div class="pricing-period">/month</div>
+            </div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check me-2"></i>All Starter features</li>
+              <li><i class="fas fa-check me-2"></i>Monthly 1-on-1 coaching</li>
+              <li><i class="fas fa-check me-2"></i>Advanced skill courses</li>
+              <li><i class="fas fa-check me-2"></i>Priority support</li>
+              <li><i class="fas fa-check me-2"></i>Wellness programs</li>
+            </ul>
+            <a href="#contact" class="btn-primary-custom w-100 text-center">Get Started</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="pricing-card">
+            <h4 class="text-center mb-3">Enterprise</h4>
+            <div class="text-center">
+              <span class="pricing-price">$199</span>
+              <div class="pricing-period">/month</div>
+            </div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check me-2"></i>All Professional features</li>
+              <li><i class="fas fa-check me-2"></i>Weekly 1-on-1 coaching</li>
+              <li><i class="fas fa-check me-2"></i>Custom development plans</li>
+              <li><i class="fas fa-check me-2"></i>24/7 support</li>
+              <li><i class="fas fa-check me-2"></i>Executive coaching</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline-primary w-100">Contact Sales</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section-padding cta-section" data-aos="fade-up">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-8">
+          <h2 class="font-display mb-4">Ready to Transform Your Life?</h2>
+          <p class="lead mb-4">Join thousands of individuals who have already started their journey to success. Your
+            transformation begins with a single step.</p>
+          <div class="d-flex gap-3 justify-content-center flex-wrap">
+            <a href="#contact" class="btn btn-light btn-lg">
+              <i class="fas fa-rocket me-2"></i>Start Free Trial
+            </a>
+            <a href="#pricing" class="btn btn-outline-light btn-lg">
+              <i class="fas fa-calendar me-2"></i>Schedule Consultation
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" data-aos="fade-up">
+          <h2 class="section-title font-display">Get Started Today</h2>
+          <p class="section-subtitle">Ready to begin your transformation? Get in touch with our team to discuss your
+            goals and find the perfect plan for you.</p>
+        </div>
+      </div>
+      <div class="row g-5">
+        <div class="col-lg-8" data-aos="fade-right">
+          <div class="bg-white p-4 rounded-3 shadow">
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="firstName" class="form-label">First Name *</label>
+                  <input type="text" class="form-control" id="firstName" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="lastName" class="form-label">Last Name *</label>
+                  <input type="text" class="form-control" id="lastName" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email Address *</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" id="phone">
+                </div>
+                <div class="col-12">
+                  <label for="service" class="form-label">Interested Service *</label>
+                  <select class="form-control" id="service" required>
+                    <option value="">Select a service</option>
+                    <option value="1on1-coaching">1-on-1 Coaching</option>
+                    <option value="skill-development">Skill Development</option>
+                    <option value="goal-setting">Goal Setting</option>
+                    <option value="wellness">Wellness Programs</option>
+                    <option value="enterprise">Enterprise Solutions</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="4"
+                    placeholder="Tell us about your goals and challenges..."></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="newsletter">
+                    <label class="form-check-label" for="newsletter">
+                      Subscribe to our newsletter for success tips and updates
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn-primary-custom">
+                    <i class="fas fa-paper-plane me-2"></i>Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-4" data-aos="fade-left">
+          <div class="h-100 d-flex flex-column justify-content-between">
+            <div>
+              <div class="mb-4">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="feature-icon me-3" style="width: 50px; height: 50px;">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <div>
+                    <h6 class="mb-1">Phone</h6>
+                    <p class="text-muted mb-0">+1 (555) 123-4567</p>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="feature-icon me-3" style="width: 50px; height: 50px;">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div>
+                    <h6 class="mb-1">Email</h6>
+                    <p class="text-muted mb-0">hello@Dnesaplatform.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="feature-icon me-3" style="width: 50px; height: 50px;">
+                    <i class="fas fa-clock"></i>
+                  </div>
+                  <div>
+                    <h6 class="mb-1">Business Hours</h6>
+                    <p class="text-muted mb-0">Mon-Fri: 9AM-6PM PST</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-light p-3 rounded-3">
+              <h6 class="mb-2">Free Resources</h6>
+              <p class="small text-muted mb-2">Download our free goal-setting workbook and start your transformation
+                today!</p>
+              <a href="#" class="btn btn-outline-primary btn-sm">
+                <i class="fas fa-download me-2"></i>Download Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="footer-brand font-display">
+            <i class="fas fa-rocket me-2"></i>Dnesa
+          </div>
+          <p class="text-light mb-4">Empowering individuals to transform their potential into success through proven
+            methodologies and community support.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" title="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span
+                class="visually-hidden">Facebook</span></a>
+            <a href="#" class="social-link" title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span
+                class="visually-hidden">Twitter</span></a>
+            <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span
+                class="visually-hidden">LinkedIn</span></a>
+            <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i><span
+                class="visually-hidden">Instagram</span></a>
+            <a href="#" class="social-link" title="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i><span
+                class="visually-hidden">YouTube</span></a>
+          </div>
+        </div>
+        <div class=" col-lg-2 col-md-6">
+          <h6 class="text-white mb-3">Services</h6>
+          <ul class="footer-links">
+            <li><a href="#services">1-on-1 Coaching</a></li>
+            <li><a href="#services">Skill Development</a></li>
+            <li><a href="#services">Goal Setting</a></li>
+            <li><a href="#services">Wellness Programs</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h6 class="text-white mb-3">Company</h6>
+          <ul class="footer-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h6 class="text-white mb-3">Resources</h6>
+          <ul class="footer-links">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Success Stories</a></li>
+            <li><a href="#">Free Tools</a></li>
+            <li><a href="#">Webinars</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h6 class="text-white mb-3">Support</h6>
+          <ul class="footer-links">
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="my-4" style="border-color: #374151;">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="text-muted mb-0">&copy; 2025 Dnesa Platform. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="text-muted mb-0">Built with ❤️ for personal growth</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- External Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</body>
+
+</html>
