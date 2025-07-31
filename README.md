@@ -35,9 +35,9 @@ dnesa-platform/
 ├── index.html              # Main landing page
 ├── assets/
 │   ├── css/
-│   │   └── styles.css      # Custom styles (embedded)
+│   │   └── styles.css      # Custom styles 
 │   ├── js/
-│   │   └── main.js         # Main JavaScript (embedded)
+│   │   └── main.js         # Main JavaScript
 │   └── images/
 │       └── (placeholder for future assets)
 ├── docs/
